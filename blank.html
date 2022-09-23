@@ -11,13 +11,23 @@
 <body>
     <div class="Hero">
         <h1>Rock Paper Scissors</h1>
-        <p>Let's Play a Game!</p>
     </div>
     <div class="Choices">
         <h3>Make a Choice:</h3>
-        <button id="rock" class="btn"><img src='images/rock.jpg'></button>
-        <button id="paper" class="btn"><img src='images/paper.jpg'></button>
-        <button id="scissors" class="btn"><img src='images/scissors.jpg'></button>
+        <div class="threeChoices">
+        <div id="rockChoice">
+            <button id="rock" class="btn"><img src='images/rock.jpg'></button>
+            <p>ROCK</p>
+        </div>
+        <div class="paperChoice">
+            <button id="paper" class="btn"><img src='images/paper.jpg'></button>
+            <p>PAPER</p>
+        </div>
+        <div class="scissorsChoice">
+            <button id="scissors" class="btn"><img src='images/scissors.jpg'></button>
+            <p>SCISSORS</p>
+        </div>
+        </div>
     </div>
     <div class="Results">
         <p class="text" id="player-score">Player Score:</p>
